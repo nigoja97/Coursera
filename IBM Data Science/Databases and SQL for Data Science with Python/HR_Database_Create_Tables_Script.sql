@@ -1,16 +1,10 @@
-------------------------------------------
---DDL statement for table 'HR' database--
---------------------------------------------
+DROP TABLE IF EXISTS EMPLOYEES;
+DROP TABLE IF EXISTS JOB_HISTORY;
+DROP TABLE IF EXISTS JOBS;
+DROP TABLE IF EXISTS DEPARTMENTS;
+DROP TABLE IF EXISTS LOCATIONS;
 
--- Drop the tables in case they exist
 
-DROP TABLE EMPLOYEES;
-DROP TABLE JOB_HISTORY;
-DROP TABLE JOBS;
-DROP TABLE DEPARTMENTS;
-DROP TABLE LOCATIONS;
-
--- Create the tables
 
 CREATE TABLE EMPLOYEES (
                           EMP_ID CHAR(9) NOT NULL,
