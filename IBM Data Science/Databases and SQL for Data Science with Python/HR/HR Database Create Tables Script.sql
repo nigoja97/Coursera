@@ -50,3 +50,7 @@ CREATE TABLE LOCATIONS (
                           DEP_ID_LOC CHAR(9) NOT NULL,
                           PRIMARY KEY (LOCT_ID,DEP_ID_LOC)
                         );
+                        
+                        INSERT INTO EMPLOYEES values (
+                        ('E1001', 'Rav', 'Ahuja', '123456', '1976/01/06', 'M', '5631 Rice, OakPark,IL', 100, '100000.00', 30001, 2)
+                        )
