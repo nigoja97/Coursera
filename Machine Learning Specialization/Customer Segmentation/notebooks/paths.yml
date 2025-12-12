@@ -1,0 +1,33 @@
+project:
+  root: "Machine Learning Specialization"
+
+data:
+  root: "Customer Segmentation/data"
+  raw: "Customer Segmentation/data/raw"
+  processed: "Customer Segmentation/data/processed"
+  raw_file_online_retail: "Customer Segmentation/data/raw/online_retail_II.csv"
+
+notebooks:
+  root: "Customer Segmentation/notebooks"
+  cleaning: "Customer Segmentation/notebooks/01-data-cleaning-and-preprocessing.ipynb"
+  feature_engineering: "Customer Segmentation/notebooks/02-feature-engineering-rfm.ipynb"
+  modeling: "Customer Segmentation/notebooks/03-unsupervised-modeling.ipynb"
+  segmentation: "Customer Segmentation/notebooks/04-segmentation-analysis.ipynb"
+  visualization: "Customer Segmentation/notebooks/05-visualization-and-business-insights.ipynb"
+
+src:
+  root: "Customer Segmentation/src"
+  preprocessing: "Customer Segmentation/src/preprocessing.py"
+  feature_engineering: "Customer Segmentation/src/feature_engineering.py"
+  clustering: "Customer Segmentation/src/clustering.py"
+  evaluation: "Customer Segmentation/src/evaluation.py"
+  utils: "Customer Segmentation/src/utils.py"
+
+results:
+  root: "Customer Segmentation/results"
+  plots: "Customer Segmentation/results/plots"
+  metrics: "Customer Segmentation/results/metrics"
+  segments: "Customer Segmentation/results/segments"
+
+docs:
+  readme: "Customer Segmentation/README.md"
