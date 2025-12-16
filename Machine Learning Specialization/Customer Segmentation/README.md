@@ -4,6 +4,8 @@ Customer Segmentation/
 │   ├── raw/
 │   │   └── online_retail_II.csv
 │   └── processed/
+│       └── Cleaned Data.parquet
+│       └── Customer Clustering Features Data.parquetparquet
 │
 ├── notebooks/
 │   ├── 01-data-cleaning-and-preprocessing.ipynb
