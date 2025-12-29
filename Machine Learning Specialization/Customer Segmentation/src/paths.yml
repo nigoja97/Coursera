@@ -8,6 +8,8 @@ data:
   raw_file_online_retail: "Customer Segmentation/data/raw/online_retail_II.csv"
   noOutlierData: "Customer Segmentation/data/processed/Cleaned Data.parquet"
   clusteringFeatures: "Customer Segmentation/data/processed/Customer Clustering Features Data.parquet"
+  transformedRFMData: "Customer Segmentation/data/processed/Transformed RFM Data.parquet"
+  transformedFeaturesData: "Customer Segmentation/data/processed/Transformed Features Data.parquet"
 
 notebooks:
   root: "Customer Segmentation/notebooks"
